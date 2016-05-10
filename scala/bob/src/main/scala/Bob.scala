@@ -3,16 +3,17 @@
   */
 class Bob {
   def hey(sentence: String) = {
-    sentence match {
+    sentence.trim match {
       case Yelling() => "Whoa, chill out!"
       case Question() => "Sure."
+      case "" => "Fine. Be that way!"
       case _ => "Whatever."
     }
   }
 
   case object Yelling {
     def unapply(sentence: String): Boolean = {
-      if (sentence.contains("\\w"))
+      if ("[a-zA-Z]".r.findFirstIn(sentence).nonEmpty)
         sentence.eq(sentence.toUpperCase)
       else
         false
