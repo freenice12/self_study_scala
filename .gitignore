@@ -49,4 +49,5 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
-workspace.xml
+*workspace.xml
+*.idea*/**
