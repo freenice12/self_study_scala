@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03be7b67-8acc-4718-b80c-0b3339088957" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/src/main/scala/Bob.scala" afterPath="$PROJECT_DIR$/../bob/src/main/scala/Bob.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala" afterPath="$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello-world.iws" />
@@ -14,6 +18,9 @@
     <ignored path="$PROJECT_DIR$/../bob/target/" />
     <ignored path="$PROJECT_DIR$/../bob/project/project/target/" />
     <ignored path="$PROJECT_DIR$/../bob/project/target/" />
+    <ignored path="$PROJECT_DIR$/../hamming/target/" />
+    <ignored path="$PROJECT_DIR$/../hamming/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/../hamming/project/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +35,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/../bob">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../hamming">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$">
@@ -46,21 +56,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bob.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../bob/src/main/scala/Bob.scala">
+      <file leaf-file-name="Hamming.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bob_test.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala">
+      <file leaf-file-name="hamming_test.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+            <state relative-caret-position="420">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -93,7 +103,16 @@
         <option value="$PROJECT_DIR$/src/main/scala/HelloWorld.scala" />
         <option value="$PROJECT_DIR$/../bob/src/main/scala/Bob.scala" />
         <option value="$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala" />
+        <option value="$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala" />
+        <option value="$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -258,6 +277,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,21 +287,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamming_test.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hamming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bob" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hamming" />
     <property name="FullScreen" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Scala" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="ScalaTest.bob_test">
+  <component name="RunManager" selected="ScalaTest.HammingSpecs">
     <configuration default="false" name="HelloWorldTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="hello-world" />
@@ -330,6 +407,21 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="bob" />
       <setting name="path" value="bob_test" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HammingSpecs" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="hamming" />
+      <setting name="path" value="HammingSpecs" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -633,23 +725,25 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.HelloWorldTest" />
       <item index="1" class="java.lang.String" itemvalue="ScalaTest.HelloWorldTest.Without name" />
       <item index="2" class="java.lang.String" itemvalue="ScalaTest.BobSpecs" />
       <item index="3" class="java.lang.String" itemvalue="ScalaTest.bob_test" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.HammingSpecs" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.bob_test" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.HelloWorldTest" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.BobSpecs" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.HelloWorldTest.Without name" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.HammingSpecs" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.bob_test" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.HelloWorldTest" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.BobSpecs" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.HelloWorldTest.Without name" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1462778365894" />
+    <option name="lastUpdateTimestamp" value="1463724263184" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -668,6 +762,26 @@
               <ExternalProjectPojo>
                 <option name="name" value="bob-build" />
                 <option name="path" value="$PROJECT_DIR$/../bob/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hamming" />
+              <option name="path" value="$PROJECT_DIR$/../hamming" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="hamming" />
+                <option name="path" value="$PROJECT_DIR$/../hamming" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hamming-build" />
+                <option name="path" value="$PROJECT_DIR$/../hamming/project" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -697,6 +811,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../bob" value="1462778299000" />
+        <entry key="$PROJECT_DIR$/../hamming" value="1463724119000" />
         <entry key="$PROJECT_DIR$" value="1462680620000" />
       </map>
     </option>
@@ -706,6 +821,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -718,35 +836,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="bob_test - 2016.05.10 at 21h 27m 46s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 29m 18s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 27m 51s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 31m 27s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 27m 56s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 32m 42s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 27m 59s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 32m 49s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 28m 03s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 32m 57s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 29m 16s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 02s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 29m 24s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 09s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 29m 30s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 13s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 31m 45s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 21s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="bob_test - 2016.05.10 at 21h 34m 28s.xml">
-      <configuration name="bob_test" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="HammingSpecs - 2016.05.20 at 15h 36m 01s.xml">
+      <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -762,7 +880,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -781,12 +899,20 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -795,12 +921,49 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bob/src/main/scala/Bob.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bob/src/main/scala/Bob.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="435">
             <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -810,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +988,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="435">
             <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -837,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,14 +1004,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/Bob.scala">
+    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/Bob.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/HelloWorldTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/string_test.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bob/src/main/scala/Bob.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -865,34 +1045,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/HelloWorldTest.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/words/BeWord.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="156">
+          <caret line="544" column="8" selection-start-line="544" selection-start-column="8" selection-end-line="544" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/string_test.sc">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalactic/Prettifier.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="156">
+          <caret line="308" column="4" selection-start-line="308" selection-start-column="4" selection-end-line="308" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/Assertions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+        <state relative-caret-position="156">
+          <caret line="1548" column="4" selection-start-line="1548" selection-start-column="4" selection-end-line="1548" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../bob/src/main/scala/Bob.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/Resources.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/Matchers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6264" column="6" selection-start-line="6264" selection-start-column="6" selection-end-line="6264" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/Transformer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/OutcomeOf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/Suite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1121" column="4" selection-start-line="1121" selection-start-column="4" selection-end-line="1121" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/FlatSpecLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1713" column="56" selection-start-line="1713" selection-start-column="56" selection-end-line="1713" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.2.5-sources.jar!/org/scalatest/Engine.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="401" column="8" selection-start-line="401" selection-start-column="8" selection-end-line="401" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding />
         </state>
       </provider>
