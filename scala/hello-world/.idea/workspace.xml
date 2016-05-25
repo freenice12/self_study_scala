@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03be7b67-8acc-4718-b80c-0b3339088957" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala" afterPath="$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello-world.iws" />
@@ -59,8 +54,8 @@
       <file leaf-file-name="Hamming.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -69,8 +64,8 @@
       <file leaf-file-name="hamming_test.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -103,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/HelloWorld.scala" />
         <option value="$PROJECT_DIR$/../bob/src/main/scala/Bob.scala" />
         <option value="$PROJECT_DIR$/../bob/src/test/scala/bob_test.scala" />
+        <option value="$PROJECT_DIR$/../hamming/src/main/scala/RandomTest.sc" />
         <option value="$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala" />
         <option value="$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala" />
       </list>
@@ -278,7 +274,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,15 +343,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hamming" />
-    <property name="FullScreen" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Scala" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager" selected="ScalaTest.HammingSpecs">
     <configuration default="false" name="HelloWorldTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
@@ -836,34 +832,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 29m 18s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 20m 06s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 31m 27s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 20m 31s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 32m 42s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 22m 54s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 32m 49s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 27m 57s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 32m 57s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 32m 11s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 02s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 32m 29s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 09s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 33m 09s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 13s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 34m 30s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 33m 21s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 36m 25s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="HammingSpecs - 2016.05.20 at 15h 36m 01s.xml">
+    <history-entry file="HammingSpecs - 2016.05.25 at 10h 36m 56s.xml">
       <configuration name="HammingSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -880,7 +876,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -921,6 +917,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -940,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="772">
           <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="544" column="8" selection-start-line="544" selection-start-column="8" selection-end-line="544" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="308" column="4" selection-start-line="308" selection-start-column="4" selection-end-line="308" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="1548" column="4" selection-start-line="1548" selection-start-column="4" selection-end-line="1548" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6264" column="6" selection-start-line="6264" selection-start-column="6" selection-end-line="6264" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="1121" column="4" selection-start-line="1121" selection-start-column="4" selection-end-line="1121" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="1713" column="56" selection-start-line="1713" selection-start-column="56" selection-end-line="1713" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,22 +1136,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="401" column="8" selection-start-line="401" selection-start-column="8" selection-end-line="401" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../hamming/src/main/scala/RandomTest.sc" />
     <entry file="file://$PROJECT_DIR$/../hamming/src/test/scala/hamming_test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../hamming/src/main/scala/Hamming.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
